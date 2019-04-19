@@ -1,0 +1,5 @@
+com\sjz\a\MaxTemperature.class
+com\sjz\a\MaxTemperatureMapper.class
+com\sjz\a\MaxTemperatureReducer.class
+com\sjz\b\UploadFile.class
+com\sjz\b\UploadFile$1.class
