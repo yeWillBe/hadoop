@@ -60,7 +60,7 @@ public class HdfsClient {
      */
     @Test
     public void testDownloadFileToLocal() throws IllegalArgumentException, IOException {
-        fs.copyToLocalFile(new Path("/jdk-7u65-linux-i586.tar.gz"), new Path("d:/"));
+        fs.copyToLocalFile(new Path("/demo2"), new Path("d:/"));
         fs.close();
     }
 

@@ -16,7 +16,7 @@ public class UploadFile {
 	public static void main(String[] args) {
 		try {
 			String localSrc = "D://demo.zip";
-			String dst = "hdfs://192.168.100.17:8888";
+			String dst = "hdfs://192.168.100.17:8888/demo1/demo2";
 			InputStream in = new BufferedInputStream(new FileInputStream(localSrc));
 			Configuration conf = new Configuration();
 			FileSystem fs = FileSystem.get(URI.create(dst), conf);
