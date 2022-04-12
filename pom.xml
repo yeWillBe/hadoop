@@ -9,7 +9,7 @@
 	<name>hadoopTest Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
-		<hadoopVersion>2.7.6</hadoopVersion>
+		<hadoopVersion>3.2.3</hadoopVersion>
 	</properties>
 	<dependencies>
 		<dependency>
